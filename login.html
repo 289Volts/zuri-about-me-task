@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <header>
+        <div id="logo">
+          <a href="index.html">289VOLTS</a>
+        </div>
+        <nav class="navbar">
+          <ul class="links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="registration.html">Registration</a></li>
+            <li><a href="login.html">Login</a></li>
+          </ul>
+        </nav>
+    </header>
+    <main>
+      <div class="login-container  container">
+        <form action="" method="get" id="login-form">
+          <fieldset>
+            <legend>Login</legend>
+            <div>
+              <label for="email">Email:</label><br />
+              <input type="email" name="email" id="contact-email" required />
+            </div>
+            <div>
+              <label for="password">Password:</label><br />
+              <input type="password" name="password" minlength="8" maxlength="10" id="pass" required />
+            </div>
+            <button
+              class="form-btn"
+              type="submit" 
+              formmethod="get"
+            >
+              Login
+            </button>
+          </fieldset>
+        </form>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer>
+      <p>
+        Copyright &copy; 2022<span>|</span><span>289Volts X Zuri training</span>
+      </p>
+    </footer>
+  </body>
+</html>

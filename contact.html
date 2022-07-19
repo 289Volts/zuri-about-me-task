@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Contact</title>
+</head>
+
+<body>
+  <header>
+    <div id="logo">
+      <a href="index.html">289VOLTS</a>
+    </div>
+    <nav class="navbar">
+      <ul class="links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="registration.html">Registration</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <main>
+          <p class="form-heading">
+            Thank you for reaching out to me. Leave a message and i'll be quick
+            to respond to you.
+          </p>
+        <div class="background">
+          <form method="get" id="contact-form">
+            <div class="form-item">
+              <label for="Name">Name</label><br />
+              <input type="text" name="Name" id="Name" placeholder="Enter your Full Name" required />
+            </div>
+            <div class="form-item">
+              <label for="email">Email</label><br />
+              <input type="email" id="email" name="email" id="contact-email" placeholder="abcxyz@gmail.com" required />
+            </div>
+            <div class="form-item">
+              <label for="message">Message</label><br />
+              <textarea name="message" id="message" placeholder="Brief me on what i can do for you" cols="20" rows="10"></textarea>
+            </div>
+            <button class="form-btn" type="submit" formmethod="get">
+              Get in touch!
+            </button>
+          </form>
+        </div>
+      </div>
+    </main>
+  </div>
+  <!-- footer -->
+  <footer>
+    <p>
+      Copyright &copy; 2022<span>|</span><span>289Volts X Zuri training</span>
+    </p>
+  </footer>
+
+</body>
+
+</html>

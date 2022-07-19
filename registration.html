@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Register</title>
+</head>
+
+<body>
+  <header>
+      <div id="logo">
+        <a href="index.html">289VOLTS</a>
+      </div>
+      <nav class="navbar">
+        <ul class="links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="registration.html">Registration</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </nav>
+  </header>
+  <main>
+    <div class="container reg-wrapper">
+      <h2>Register for the Zuri Program</h2>
+
+      <form action="" method="get" id="reg-form">
+        <div class="reg-form">
+          <label for="firstName">First Name</label><br />
+          <input type="text" name="firstName" id="firstname" title="Enter your first name" required />
+        </div>
+        <div class="reg-form">
+          <label for="lastName">Last Name</label><br />
+          <input type="text" name="lastName" id="lastname" required />
+        </div>
+        <div class="reg-form">
+          <label for="phone">Phone</label><br />
+          <input type="tel" name="phone" id="phone" pattern="[+][0-9]{3}[0-9]{3}[0-9]{4}[0-9]{4}" required />
+        </div>
+        <div class="reg-form">
+          <label for="gender">Gender</label><br />
+          <select name="gender" id="gender">
+            <option value="Male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="reg-form">
+          <label for="contry">Country</label><br />
+          <select name="country" id="country">
+            <option value="country" selected>Select your Nationality</option>
+            <option value="Nigeria">Nigeria</option>
+            <option value="ghana">Ghana</option>
+            <option value="USA">USA</option>
+            <option value="canada">Canada</option>
+            <option value="UK">United Kingdom</option>
+          </select>
+        </div>
+        <div class="reg-form">
+          <label for="province">State/Province</label><br />
+          <input type="text" name="Province" id="province" placeholder="eg. Lagos" required />
+        </div>
+        <div class="reg-form">
+          <label for="email">Email</label><br />
+          <input type="email" name="email" id="email" placeholder="e.g. abcxyz@email.com" required />
+        </div>
+        <div class="reg-form">
+          <label for="pwd">Password (minimum of 10 characters)</label><br />
+          <input type="password" name="password" id="pwd" minlength="10" maxlength="16" required />
+        </div>
+        <div class="reg-form">
+          <label for="password">Confirm Password</label><br />
+          <input type="password" name="password" id="conf-pwd" minlength="10" maxlength="16" required />
+        </div>
+        <div class="reg-form">
+          <button class="form-btn" type="submit" formmethod="get">
+            Register
+          </button>
+        </div>
+      </form>
+    </div>
+  </main>
+  <!-- footer -->
+  <footer>
+    <p>
+      Copyright &copy; 2022<span>|</span><span>289Volts X Zuri training</span>
+    </p>
+  </footer>
+</body>
+
+</html>

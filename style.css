@@ -1,0 +1,353 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font: 15px/1.5 "Poppins", sans-serif;
+}
+
+.container {
+	width: 85%;
+	margin: 0 auto;
+	max-width: 980px;
+}
+
+h1,
+h3 {
+	margin-bottom: 10px;
+	line-height: 1.2;
+}
+
+/* Header */
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+	padding: 0 3rem;
+	min-height: 50px;
+	background-color: #008cba;
+}
+
+header .links {
+	display: flex;
+}
+
+header ul {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+header ul li {
+	list-style-type: none;
+	margin-left: 15px;
+}
+
+#logo a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: x-large;
+	font-weight: 700;
+}
+
+.links a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+.links a:hover {
+	color: rebeccapurple;
+	font-size: 17px;
+	border-bottom: 2px solid #008cba;
+}
+
+/* Hero Section */
+
+.hero-cont {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 20px;
+	width: 80%;
+}
+
+.left {
+	width: 50%;
+	/* margin-right: 80px; */
+}
+
+.left h1 {
+	font-size: 2.8rem;
+}
+
+.left p {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.3;
+	margin-top: 0;
+}
+
+.hero-btn {
+	border: none;
+	background-color: #008cba;
+	padding: 8px 10px;
+	font-size: 18px;
+	color: white;
+	border-radius: 6px;
+	box-shadow: 0 1px 2px 2px rgba(34, 163, 103, 0.342),
+		0 4px 15px 0 rgba(80, 98, 148, 0.356);
+	cursor: pointer;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	transition: 0.2s;
+}
+
+.hero-btn:hover {
+	background-color: black;
+	/* opacity: 0.6; */
+}
+
+/* Hobbies, Priorities, Skills */
+
+#info {
+	background-color: rgba(109, 159, 189, 0.466);
+	width: 100%;
+}
+
+.h-p-cont {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+	max-width: 1100px;
+}
+
+.card h3 {
+	text-align: center;
+}
+
+.card {
+	background-color: rgba(248, 247, 247, 0.664);
+	padding: 15px 10px;
+	margin: 20px 15px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Contact Me */
+
+.btm-cont {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+
+.contact-btn {
+	text-decoration: none;
+	color: white;
+	background-color: blue;
+	font-size: 2rem;
+	font-weight: 700;
+	padding: 3px 25px;
+	border-radius: 10px;
+}
+
+/* Footer */
+footer {
+	background-color: black;
+	color: white;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer span {
+	margin-left: 10px;
+}
+
+/* Contact Form */
+.cont-wrapper {
+	margin-top: 30px;
+}
+
+.form-heading {
+	margin: 1em 0;
+	font-size: 1.8rem;
+	font-weight: bold;
+	text-align: center;
+}
+
+.background {
+	margin: 0 auto;
+	width: 50%;
+}
+
+#contact-form {
+	margin: 20px auto;
+	border: 3px solid rgb(12, 12, 12);
+	border-radius: 10px;
+	padding: 2rem;
+}
+
+input::placeholder,
+textarea::placeholder {
+	font-family: "poppins", sans-serif;
+	font-size: 1rem;
+	color: black;
+}
+
+label {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.form-item input {
+	width: 100%;
+	padding: 10px;
+	font-size: 1rem;
+	border-radius: 5px;
+	border: 2px solid black;
+	margin: 8px auto;
+}
+
+textarea {
+	resize: none;
+	width: 80%;
+	border-radius: 5px;
+	padding: 10px;
+	margin-top: 8px;
+	outline: none;
+	border: 2px solid black;
+}
+
+.form-btn {
+	font-family: inherit;
+	color: white;
+	background-color: black;
+	font-size: 14px;
+	padding: 3px 8px;
+	border-radius: 5px;
+	border: 1px solid;
+	cursor: pointer;
+}
+
+/* Registration page */
+
+.reg-wrapper {
+	color: black;
+	margin: 3rem auto;
+	padding: 0 3rem ;
+}
+
+.reg-wrapper h2 {
+	text-align: center;
+	text-decoration: underline;
+	margin-bottom: 2rem;
+}
+
+.reg-wrapper label {
+	margin: 2rem 0;
+}
+
+.reg-form input {
+	width: 250px;
+	padding: 8px;
+	border-radius: 5px;
+	border: 1px solid black;
+	margin: 5px 0;
+}
+
+.reg-form select {
+	padding: 5px;
+	font-family: inherit;
+	margin: 8px 0 10px 0;
+}
+
+.form-btn {
+	font-size: 1.2rem;
+	margin-top: 1em;
+}
+
+/* Login page */
+
+#login-form {
+	width: 60%;
+	margin: 100px  auto auto;
+	height: 72vh;
+
+}
+
+#login-form input {
+	width: 100%;
+	padding: 8px;
+	border-radius: 5px;
+	border: 1px solid black;
+	margin: 10px auto;
+}
+
+#login-form input[type="password"] {
+	margin-bottom: 15px;
+}
+
+#login-form fieldset {
+	border: 2px solid rgba(0, 0, 0, 0.76);
+	border-radius: 5px;
+	width: 70%;
+	padding: 20px;
+	margin: 50px auto;
+}
+
+#login-form fieldset legend {
+	font-size: 2rem;
+	font-weight: bolder;
+	padding: 0 10px;
+	margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+	header .container {
+		flex-direction: column;
+		padding-bottom: 10px;
+	}
+
+	header .navbar {
+		margin-top: 10px;
+	}
+
+	.links li {
+		margin: 0;
+		padding-left: 10px;
+	}
+
+	.hero-cont {
+		flex-direction: column;
+		text-align: center;
+		align-items: center;
+		padding: 0;
+	}
+
+	.left {
+		margin: 0 auto;
+	}
+
+	.hero-cont h1 {
+		line-height: 1;
+		font-size: 2rem;
+	}
+
+	.hero-cont img {
+		max-height: 300px;
+	}
+
+	.h-p-cont {
+		display: block;
+	}
+}
